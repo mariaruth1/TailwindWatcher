@@ -6,7 +6,7 @@ A simple .NET NuGet package designed for **debug and development environments on
 
 Install the NuGet package into your .NET project:
 
-dotnet add package Ruthless.TailwindWatcher --version 1.0.1
+dotnet add package TailwindWatcher --version 1.0.1
 
 ## Running Tailwind styling
 
