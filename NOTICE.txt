@@ -1,0 +1,4 @@
+﻿TailwindWatcher
+Copyright 2025 Maria Ruth Nielsen
+
+This product includes software developed by Maria Ruth Nielsen.

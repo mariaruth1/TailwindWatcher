@@ -6,7 +6,7 @@ A simple .NET NuGet package designed for **debug and development environments on
 
 Install the NuGet package into your .NET project:
 
-dotnet add package Ruthless.TailwindWatcher --version 1.0.0
+dotnet add package Ruthless.TailwindWatcher --version 1.0.1
 
 ## Running Tailwind styling
 
@@ -15,12 +15,12 @@ Download tailwind v4.X.X executable: https://github.com/tailwindlabs/tailwindcss
 In Program.cs add:
 
 #if DEBUG
-using TailwindWatcher;
 // Example Usage:
-TailwindUtils.WatchTailwind(
+TailwindWatcher.TailwindUtils.WatchTailwind(
     tailwindFullPath: "C:\\YourProject\\tailwind-cli\\tailwindcss.exe", // Full path to your tailwind executable
     inputCssPath: "Styles/tailwind-app.css", // Path to your input CSS from project root
     outputCssPath: "wwwroot/css/tailwind-app.css" // Path to your output CSS in wwwroot
+    );
 #endif
 
 If in debug mode tailwind will now build and run automatically

@@ -12,10 +12,10 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
 		<PackageId>TailwindWatcher</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Maria Ruth Nielsen</Authors>
 		<Description>This package is for debug and development purposes only.</Description>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 
 		<PackageTags>TailwindCSS;Watcher;Development;Debug;Utility;Auto;Tailwind</PackageTags>
 		<RepositoryUrl>https://github.com/mariaruth1/TailwindWatcher</RepositoryUrl>
@@ -33,7 +33,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="README.md" Pack="true" PackagePath="\"/>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="NOTICE.txt" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 </Project>
