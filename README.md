@@ -1,4 +1,4 @@
-﻿# Ruthless.TailwindWatcher
+﻿# TailwindWatcher
 
 A simple .NET NuGet package designed for **debug and development environments only** to automatically watch and rebuild your Tailwind CSS files using the Tailwind CSS CLI.
 
