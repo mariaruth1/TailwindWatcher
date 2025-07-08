@@ -12,10 +12,11 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
 		<PackageId>TailwindWatcher</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Authors>Maria Ruth Nielsen</Authors>
 		<Description>This package is for debug and development purposes only.</Description>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 
 		<PackageTags>TailwindCSS;Watcher;Development;Debug;Utility;Auto;Tailwind</PackageTags>
 		<RepositoryUrl>https://github.com/mariaruth1/TailwindWatcher</RepositoryUrl>
